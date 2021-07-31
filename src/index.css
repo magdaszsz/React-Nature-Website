@@ -12,6 +12,10 @@
   display: flex;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .main-content {
   max-width: 40rem;
   margin: 6rem auto;
@@ -35,3 +39,5 @@
   line-height: 1.5;
   text-align: center;
 }
+
+

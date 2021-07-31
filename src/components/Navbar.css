@@ -1,11 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@300;400&family=Poppins:wght@300;400&display=swap");
+
 nav {
-  height: 10vh;
+  height: 5rem;
   background: black;
-  color: white;
+  padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3rem;
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 ul {
@@ -17,6 +25,9 @@ a {
   color: inherit;
   text-decoration: none;
   margin-left: 1rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-family: inherit;
 }
 
 .logo {
@@ -25,4 +36,35 @@ a {
 
 .logo:hover {
   color: orange;
+}
+
+@media (max-width: 800px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    height: 90vh;
+    background-color: black;
+    position: absolute;
+    top: 5rem;
+    left: -100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in;
+  }
+
+  .nav-menu li {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    margin-top: 2rem;
+    width: 40%;
+  }
+
+  .nav-menu.show {
+    left: 0;
+  }
 }
