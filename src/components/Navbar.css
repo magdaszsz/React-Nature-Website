@@ -30,12 +30,20 @@ a {
   font-family: inherit;
 }
 
+.active {
+  color: #f9ca24;
+}
+
 .logo {
   font-size: 4rem;
 }
 
 .logo:hover {
-  color: orange;
+  color: #f9ca24;
+}
+
+.nav-menu li:hover {
+  color: #f9ca24;
 }
 
 @media (max-width: 800px) {

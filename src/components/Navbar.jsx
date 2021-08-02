@@ -11,7 +11,7 @@ function Navbar() {
     <>
       <nav>
         <NavLink exact to="/">
-          <WiFire class="logo" onClick={() => setClick(false)} />
+          <WiFire className="logo" onClick={() => setClick(false)} />
         </NavLink>
 
         <div onClick={() => setClick(!click)} className="menu-icon">
@@ -19,12 +19,18 @@ function Navbar() {
         </div>
         <ul className={click ? "nav-menu show" : "nav-menu"}>
           <li>
-            <NavLink exact to="/mountains" onClick={() => setClick(false)}>
+            <NavLink 
+            exact to="/mountains" 
+            onClick={() => setClick(false)}
+            activeClassName='active'>
               Mountains
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/water" onClick={() => setClick(false)}>
+            <NavLink 
+            exact to="/water" 
+            onClick={() => setClick(false)}
+            activeClassName='active'>
               Water
             </NavLink>
           </li>

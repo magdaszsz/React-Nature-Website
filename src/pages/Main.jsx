@@ -12,11 +12,8 @@ function Main() {
         <img className="vite-logo" src={viteLogo}/>
       </div>
       <p className="main-text">
-        This site was build to have fun and practice React. <br></br>Bootstraped with
-        <a class="vite-link" href="https://vitejs.dev/">
-          Vite JS.
-        </a><br></br>
-         This site is fully responsive with a pull-out menu on mobile, a slider
+       This is a practice project built with React and Vite Js <br></br><br></br>
+         Fully responsive with a pull-out menu on mobile, a slider
         and a functioning search input.
       </p>
       </div>

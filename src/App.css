@@ -4,3 +4,33 @@
 body {
   font-family: 'Poppins';
 }
+
+.main-container {
+  padding: 0 1rem;
+}
+
+.mountains-container {
+  //border: 2px solid green;
+}
+
+.images-container {
+  max-width: 80rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  //border: 2px solid salmon;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.single-img {
+  height: 25rem;
+  width: 32rem;
+
+
+}
+
+.single-img img {
+  height: 100%;
+  max-width: 100%;
+}
