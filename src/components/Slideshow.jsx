@@ -5,7 +5,7 @@ import bay from '../images/bayandmountain.jpg';
 import lake from '../images/lake.jpg';
 import bridge from '../images/bridge.jpg';
 import "react-slideshow-image/dist/styles.css";
-import "./Slide.css";
+import './Slide.css';
 
 
 const proprietes = {

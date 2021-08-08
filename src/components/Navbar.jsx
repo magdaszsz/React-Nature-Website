@@ -20,6 +20,22 @@ function Navbar() {
         <ul className={click ? "nav-menu show" : "nav-menu"}>
           <li>
             <NavLink 
+            exact to="/select"
+            onClick={() => setClick(false)}
+            activeClassName='active'>
+              Select
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              exact to="/tabs"
+              onClick={() => setClick(false)}
+              activeClassName='active'
+            >Tabs
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
             exact to="/mountains" 
             onClick={() => setClick(false)}
             activeClassName='active'>
